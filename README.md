@@ -5,9 +5,7 @@ This a machine learning web application that predicts house prices based on prop
 ----------------------------------------------------------------------------------------------------------------------
 
 # LIVE DEMO
-
-👉 Paste Your Streamlit Link Here
-
+https://house-price-prediction-jk3v3ewq5nylyrbsmb839h.streamlit.app/
 ----------------------------------------------------------------------------------------------------------------------
 
 # PROJECT OVERVIEW
