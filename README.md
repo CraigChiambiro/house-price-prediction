@@ -1,40 +1,81 @@
-# House Price Prediction App
+<p align="center">
+  <img src="screenshots/Homeprediction.png" width="100%">
+</p>
 
-This a machine learning web application that predicts house prices based on property features such as living area, quality, garage size, and number of bedrooms. Built using Python, Streamlit, and Scikit-learn, and deployed as an interactive web app.
+# 🏠 House Price Prediction System
 
-----------------------------------------------------------------------------------------------------------------------
+<p align="center">
 
-# LIVE DEMO
-https://house-price-prediction-jk3v3ewq5nylyrbsmb839h.streamlit.app/
-----------------------------------------------------------------------------------------------------------------------
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 
-# PROJECT OVERVIEW
+</p>
 
-This project uses a **Random Forest Regression model** to estimate house prices using real estate property data.
+---
 
-The application allows users to input house features and instantly receive a predicted house price along with feature importance visualization.
+# 📌 Project Overview
 
-The goal of this project is to demonstrate:
-- Machine Learning Regression
-- Data preprocessing
-- Feature engineering
-- Interactive dashboard development
-- Model deployment with Streamlit
+This project is an end-to-end Machine Learning application that predicts residential house prices based on key property characteristics.
 
-----------------------------------------------------------------------------------------------------------------------
+Built with Python and Streamlit, the application uses a **Random Forest Regressor** to estimate property values and provides an interactive dashboard for real-time predictions and feature importance visualization.
 
-# FEATURES
+---
+
+# 🌐 Live Demo
+
+🔗 https://house-price-prediction-jk3v3ewq5nylyrbsmb839h.streamlit.app/
+
+> **Note:** This application is hosted on the free Streamlit Community Cloud. If the application is asleep, simply click **"Yes, get this app back up!"** It usually starts within a minute.
+
+---
+
+# 🎯 Business Problem
+
+Accurately estimating property values is important for buyers, sellers, real estate agencies, and financial institutions.
+
+This project demonstrates how machine learning can assist in predicting house prices using historical housing data and property features, supporting more informed pricing decisions.
+
+---
+
+# 🤖 Machine Learning Model
+
+| Item | Value |
+|------|-------|
+| Algorithm | Random Forest Regressor |
+| Problem Type | Regression |
+| Dataset | Ames Housing Dataset |
+| Target Variable | House Sale Price |
+
+---
+
+# 📊 Dataset
+
+This project uses the **Ames Housing Dataset**, one of the most widely used datasets for regression and predictive analytics.
+
+Dataset characteristics:
+
+- Residential property data
+- Multiple numerical and categorical features
+- Real-world housing information
+- Suitable for regression modeling
+
+---
+
+# ✨ Features
 
 - 🏠 Real-time house price prediction
-- 📊 Random Forest Regression model
-- 📈 Feature importance visualization
-- Interactive Streamlit dashboard
-- Clean and responsive UI
-- Machine learning deployment
+- 🤖 Random Forest Regression model
+- 📊 Feature importance visualization
+- 🌐 Interactive Streamlit dashboard
+- ⚡ Instant predictions
+- 📈 Machine learning powered
 
-----------------------------------------------------------------------------------------------------------------------
+---
 
-# TECH STACK
+# 🛠️ Technology Stack
 
 - Python
 - Streamlit
@@ -44,111 +85,79 @@ The goal of this project is to demonstrate:
 - Matplotlib
 - Joblib
 
-----------------------------------------------------------------------------------------------------------------------
+---
 
-# MACHINE LEARNING MODEL
+# 📂 Project Structure
 
-- Algorithm: Random Forest Regressor
-- Problem Type: Regression
-- Dataset: Ames Housing Dataset (Kaggle)
-
-## Input Features
-
-- Overall Quality
-- Living Area
-- Garage Area
-- Basement Area
-- Number of Bedrooms
-- Number of Bathrooms
-- Neighborhood
-- House Style
-
-## Output
-
-- Predicted House Price
-
-----------------------------------------------------------------------------------------------------------------------
-
-# SCREENSHOTS
-
-## Home & Prediction Screen
-
-![Home Prediction](screenshots/Homeprediction.png)
-
-----------------------------------------------------------------------------------------------------------------------
-
-## Feature Importance Chart
-
-![Feature Importance](screenshots/chart.png)
-
-----------------------------------------------------------------------------------------------------------------------
-
-# PROJECT STRUCTURE
-
-house-price-prediction/
+```text
+house-price-prediction
 │
-├── app/
+├── app
 │   └── app.py
 │
-├── data/
+├── data
 │   └── housing.csv
 │
-├── models/
+├── models
 │   ├── model.pkl
 │   └── features.pkl
 │
-├── screenshots/
+├── screenshots
 │   ├── Homeprediction.png
 │   └── chart.png
 │
 ├── train_model.py
 ├── requirements.txt
 └── README.md
+```
 
-----------------------------------------------------------------------------------------------------------------------
+---
 
-# BUSINESS VALUE
+# 📸 Application Preview
 
-- Helps estimate housing prices using property data
-- Demonstrates predictive analytics in real estate
-- Supports data-driven pricing decisions
-- Showcases regression-based machine learning solutions
+## 🏠 Prediction Dashboard
 
-----------------------------------------------------------------------------------------------------------------------
+![Home Prediction](screenshots/Homeprediction.png)
 
-# AUTHOR
+---
 
-Craig D Chiambiro
+## 📊 Feature Importance
 
-Aspiring Software Engineer / Data Science Enthusiast
+![Feature Importance](screenshots/chart.png)
 
-Focus Areas:
-- Machine Learning
-- AI Applications
-- Full Stack Development
-- Data Analytics
+---
 
-----------------------------------------------------------------------------------------------------------------------
+# 💼 Business Value
 
-# FUTURE IMPROVEMENTS
+This solution demonstrates how machine learning can support the real estate industry by:
 
-- Add advanced visual analytics
-- Integrate additional housing datasets
-- Add downloadable PDF reports
-- Improve UI/UX design
-- Deploy with cloud database integration
+- Estimating residential property values
+- Supporting data-driven pricing decisions
+- Assisting buyers and sellers
+- Demonstrating predictive analytics in real estate
 
-----------------------------------------------------------------------------------------------------------------------
+---
 
-# DATASET
+# 🚀 Future Improvements
 
-This project uses the Ames Housing Dataset commonly used for machine learning regression tasks and Kaggle competitions.
+- Compare Random Forest with XGBoost
+- Add advanced analytics dashboards
+- Generate downloadable PDF reports
+- Improve user interface and user experience
+- Integrate additional real estate datasets
 
-----------------------------------------------------------------------------------------------------------------------
+---
 
-# SUPPORT
+# 👨‍💻 Author
 
-If you like this project:
+**Craig Chiambiro**
 
-⭐ Give it a star on GitHub  
-🤝 Connect with me on LinkedIn - Craig Chiambiro
+🎓 BSc Information Technology (Data Science)
+
+💼 Software Developer | Data Analyst | Machine Learning Enthusiast
+
+🔗 GitHub: https://github.com/CraigChiambiro
+
+---
+
+⭐ If you found this project useful, consider giving it a star!
